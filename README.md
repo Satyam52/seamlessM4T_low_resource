@@ -3,7 +3,7 @@ Link to Github Repo: https://github.com/Satyam52/seamlessM4T_low_resource
 ### **Requirements and Installation**
 * **Create a directory named "slt"**
 ```cd slt``` then
-```git clone https://github.com/Satyam52/seamlessM4T_low_resource.git```
+```git clone https://github.com/Satyam52/seamlessM4T_low_resource.git . ```
 
 * **Create a docker container and map to this directory so all data and codebase are accessible**
 ```docker run -d -it --name=seamless_slt  --gpus all --ipc=host -p 4587:8888 -v `pwd`:/slt nvidia/cuda:12.2.0-base-ubuntu22.04```
