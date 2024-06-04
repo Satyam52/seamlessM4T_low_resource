@@ -42,7 +42,7 @@ Model link: https://drive.google.com/drive/folders/1eQkLjzh5FBgwnZFgBh12bQwHB6CD
 * Create a directory called checkpoint ```mkdir checkpoint``` and put the model there
 Usage: provided in inference.sh present in the scripts directory
 
-**If you are following all the above instructions just execute the "bash inference.sh" and it will generate a json file with original and predicted text along the utterance id and audio path.**
+**If you are following all the above instructions just execute the ```bash inference.sh``` and it will generate a json file with original and predicted text along the utterance id and audio path.**
 
 **It also generates .wer file with an average word error rate and char error rate.**
 
